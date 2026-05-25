@@ -18,12 +18,12 @@ nav {
     top: 0;
     left: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     line-height: 60px;
     background-color: #01050E;
     backdrop-filter: blur(10px);
-    padding: 20px 60px;
+    padding: 20px 0;
     z-index: 999;
    
 }
@@ -31,8 +31,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    gap: 5px;
+     gap: 5px;
 }
 .logo img {
     width: 80px;
@@ -856,7 +855,7 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -1016,8 +1015,8 @@ footer {
         color: #5C51F4;
     }
     .navLink ul li a::before {
-        display: none; /* Hide the desktop underline hover animation on mobile */
-    }
+        display: none; 
+     }
     .mobilebtn {
         display: block;
     }
